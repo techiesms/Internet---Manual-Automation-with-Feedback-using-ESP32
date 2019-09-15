@@ -335,6 +335,7 @@ void setup() {
   WiFi.begin(WIFISSID, PASSWORD);
   Serial.println();
   Serial.println();
+  delay(3000);
   /*************/
   Call_WiFiSetup();
   /*************/
