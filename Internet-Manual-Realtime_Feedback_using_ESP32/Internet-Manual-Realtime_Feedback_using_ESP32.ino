@@ -201,7 +201,7 @@ void execute_cases() {
 
 void reconnect() {
 
-  int interval = 7000;
+  int interval = 12000;
   int previousMillis = 0;
   // Loop until we're reconnected
   while (!client.connected()) {
